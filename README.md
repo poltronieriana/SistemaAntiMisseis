@@ -1,5 +1,7 @@
 # SistemaAntiMisseis
 
+#primeira entrega - 16/04/25
+
 1. Se todos os requisitos fazem parte do escopo do projeto;
 2. Se há requisitos faltantes;
 3. Priorizar os requisitos;
