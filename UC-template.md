@@ -1,67 +1,53 @@
-# Template de Caso de Uso (ISO/IEC/IEEE 29148)
+## Caso de Uso Primário: [Código e Nome do Caso de Uso]
 
-## **Identificação**
-- **ID**: UC-XX  
-- **Nome**: [Nome do Caso de Uso]  
-- **Versão**: 1.0  
-- **Data**: DD/MM/AAAA  
+**Identificação do Caso de Uso Geral:** [Código e Nome do Caso de Uso Geral - Se aplicável]
 
----
+**Resumo:** [Descrever resumidamente a função deste caso de uso]
 
-## **1. Descrição**
-| Campo                | Conteúdo                                                                 |
-|----------------------|--------------------------------------------------------------------------|
-| **Objetivo**         | *[Finalidade principal do caso de uso]*                                  |
-| **Escopo**           | *[Subsistema ou módulo afetado]*                                         |
-| **Atores Primários** | `Ator 1`, `Ator 2`                                                       |
-| **Atores Secundários**| `Sistema X`, `Sensor Y`                                                |
-| **Referências**      | RF-X, RF-Y, RNF-Z                                                        |
+**Ator Principal:** [Informar o nome do ator que mais interage com este caso de uso]
 
----
+**Atores Secundários:** [Informar o nome de outros atores que interagem com este caso de uso - Se aplicável]
 
-## **2. Fluxo de Eventos**
-### Pré-condições
-- [ ] Condição 1  
-- [ ] Condição 2  
+**Pré-condições:**
+*   [Descrever as possíveis pré-condições necessárias para que o caso de uso seja executado - Não Obrigatório]
+*   ...
 
-### Fluxo Principal
-1. O [Ator] inicia [Ação]  
-2. O sistema [Resposta]  
-3. [...]  
-N. Resultado final: [Estado do sistema]  
+**Pós-condições:**
+*   [Descrever as possíveis condições que precisam ser satisfeitas após o caso de uso encerrar - Não Obrigatório]
+*   ...
 
-### Fluxos Alternativos
-#### FA-1: [Cenário Excepcional]
-1. Se [condição], então:  
-   - [Ação corretiva]  
-   - [Retorno ao fluxo principal]  
+### Cenário Principal
 
-#### FA-2: [Erro Crítico]
-1. Quando [erro ocorre]:  
-   - [Procedimento de falha]  
-   - [Notificação]  
+**Ações do Ator:**
+1.  [Descrever a primeira ação realizada pelo ator na ordem em que ocorre]
+2.  [Descrever a segunda ação realizada pelo ator na ordem em que ocorre]
+3.  ...
 
-### Pós-condições
-- [ ] Estado 1  
-- [ ] Estado 2  
+**Ações do Sistema:**
+1.  [Descrever a primeira ação executada pelo sistema na ordem em que ocorre]
+2.  [Descrever a segunda ação executada pelo sistema na ordem em que ocorre]
+3.  ...
 
----
+**Regras de Negócio, Restrições e Validações:**
+*   [Descrever cada regra de negócio, restrição ou validação que seja necessária aplicar ao processo descrito pelo caso de uso]
+*   ...
 
-## **3. Requisitos Associados**
-### Funcionais
-- `RF-X`: [Descrição]  
-- `RF-Y`: [Descrição]  
+### Cenário Alternativo: [Definir um título curto que descreva a condição para este cenário]
 
-### Não-Funcionais
-- `RNF-Z`: [Exigência]  
+**Ações do Ator:**
+1.  [Descrever a primeira ação realizada pelo ator neste cenário alternativo]
+2.  ...
 
----
+**Ações do Sistema:**
+1.  [Descrever a primeira ação executada pelo sistema neste cenário alternativo]
+2.  ...
 
-## **4. Informações Complementares**
-| Campo          | Conteúdo                                                                 |
-|----------------|--------------------------------------------------------------------------|
-| **Prioridade** | Alta/Média/Baixa                                                         |
-| **Frequência** | Contínua/Diária/Eventual                                                 |
-| **Riscos**     | 1. [Risco] → [Mitigação]                                                |
+### Cenário de Exceção: [Definir um título curto que descreva a condição de exceção]
 
----
+**Ações do Ator:**
+1.  [Descrever a primeira ação realizada pelo ator neste cenário de exceção]
+2.  ...
+
+**Ações do Sistema:**
+1.  [Descrever a primeira ação executada pelo sistema neste cenário de exceção]
+2.  ...
