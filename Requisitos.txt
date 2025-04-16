@@ -1,0 +1,89 @@
+1. Detecção e Rastreamento de Ameaças
+RF1 (Must Have) --> Sensores de radar de longo alcance capazes de detectar ameaças balísticas, hipersônicas e subsônicas.
+RF2 (Must Have) --> Desenvolver uma plataforma integrada de inteligência artificial que realize, de forma contínua, a classificação de ameaças (minimizando falsos positivos) e a automação da resposta com tomada de decisão em tempo real.
+
+2. Análise de Trajetória e Avaliação de Impacto
+RF3 (Must Have) --> Cálculo automático da trajetória dos projéteis, prevendo a área de impacto com alta precisão.
+RF4 (Must Have) --> Priorização de ameaças com base no nível de risco e local de impacto estimado.
+RF5 (Must Have) --> Avaliação de danos potenciais para tomada de decisão automática ou manual.
+
+3. Interceptação e Neutralização de Mísseis
+RF6 (Must Have) --> Lançadores móveis e fixos para interceptação de ameaças em múltiplos estágios de voo.
+RF7 (Must Have) --> Algoritmos de guiagem avançados para rastreamento e intercepção em tempo real.
+RF8 (Should Have) --> Capacidade de múltiplas abordagens de neutralização, incluindo mísseis cinéticos, lasers de alta energia e sistemas de interferência eletrônica.
+
+4. Coordenação com Outras Forças e Infraestruturas
+RF9 (Must Have) --> O sistema deverá integrar múltiplas fontes de dados — incluindo satélites, drones de vigilância e redes de radares aliados — e compartilhar as informações coletadas de forma segura e em tempo real com os centros de comando militar e demais redes de defesa conectadas.
+RF10 (Must Have) --> Protocolo de comunicação seguro e resiliente a ataques cibernéticos.
+RF11 (Must Have) --> Conexão com redes de defesa terrestre, naval e aérea para resposta integrada.
+
+5. Monitoramento e Controle Operacional
+RF12 (Should Have) --> Interface de comando intuitiva para operadores, permitindo intervenção humana em situações críticas.
+RF13 (Must Have) --> Registro de todas as ameaças detectadas e respostas executadas para análise pós-ocorrência.
+
+6. Redundância e Operacionalidade Contínua
+RF14 (Should Have) --> Estruturas de backup para manutenção da operação em caso de falha de componentes.
+RF15 (Must Have) --> Protocolos de reconfiguração automática para adaptação a padrões de ameaças dinâmicos.
+RF16 (Must Have) --> Capacidade de reposição rápida de mísseis interceptadores para sustentar ataques prolongados.
+
+7. Proteção Contra Ameaças Cibernéticas
+RF17 (Must Have) --> Estratégia de Segurança Cibernética Integrada.
+O sistema deverá incorporar uma estratégia de segurança cibernética integrada que inclua:
+
+--> Protocolos e criptografia avançada para comunicações seguras (RF10 e RF17)
+--> Isolamento digital robusto para proteção da infraestrutura (RF18)
+--> Monitoramento em tempo real para detecção e resposta a intrusões (RF19)
+
+8. Integração com Sistemas Civis de Emergência
+RF20 (Could Have) --> Alertas automáticos para população em caso de ameaças iminentes.
+RF21 (Could Have) --> Coordenação com serviços de resgate para minimização de danos colaterais.
+RF22 (Could Have) --> Protocolos de evacuação para áreas de risco.
+
+9. Requisitos Gerais
+RF23 (Must Have) --> O sistema deve permitir operação autônoma, bem como supervisão humana para decisões críticas.
+
+Requisitos Não Funcionais (RNF):
+RNF1 (Must Have) --> O sistema deve operar 24/7 com tempo de resposta em milissegundos.
+RNF2 (Must Have) --> Capacidade de ampliação conforme novas ameaças surgirem.
+RNF3 (Should Have) --> Manutenção de operações sob ataques cibernéticos e falhas de hardware.
+RNF4 (Must Have) --> Capacidade de rastreamento e intercepção com erro mínimo.
+RNF5 (Must Have) --> Proteção contra ataques de guerra eletrônica.
+RNF6 (Must Have) --> O sistema só deve interceptar ataques que possam causar prejuízos reais. Mísseis que não irão atingir alvos civis ou militares e que não apresentarem ameaça grave ao meio ambiente devem ser ignorados por questões econômicas.
+
+10. Requisitos Adicionais Sugeridos:
+RF24 (Should Have) --> Capacidade de escalabilidade do sistema para lidar com múltiplas frentes de ataque simultâneas.
+RF25 (Should Have) --> Sistema de autocura para recuperação rápida em caso de falha de hardware ou software crítico.
+RF26 (Could Have) --> Algoritmos de previsão baseados em big data para antecipar ameaças antes da detecção tradicional.
+RF27 (Could Have) --> Eficiência energética para operação prolongada em zonas de conflito.
+RF28 (Should Have) --> Priorização inteligente de múltiplas ameaças de natureza diferente (cinética, cibernética, etc).
+
+Resumo do Funcionamento do Sistema:
+
+O sistema de defesa é projetado para detectar, analisar e neutralizar ameaças aéreas (mísseis balísticos, hipersônicos, etc.) utilizando sensores avançados, IA e integração com plataformas aliadas. O funcionamento se dá em 8 etapas principais:
+
+1. Detecção de Ameaças: Utiliza radares, satélites, drones e IA para identificar ameaças e reduzir falsos positivos.
+2. Análise de Trajetória: Calcula com precisão o ponto de impacto e avalia o risco.
+3. Interceptação: Lança mísseis, lasers ou interfere eletronicamente para neutralizar a ameaça.
+4. Coordenação: Compartilha dados com forças terrestres, navais e aéreas para uma resposta coordenada.
+5. Monitoramento Operacional: Permite supervisão humana, registra eventos e automatiza respostas críticas com IA.
+6. Cibersegurança: Protege com criptografia, isolamento digital e detecção de intrusões.
+7. Redundância: Garante funcionamento contínuo com backups, reconfiguração automática e reposição de mísseis.
+8. Integração Civil: Pode alertar a população e acionar serviços de emergência.
+
+O sistema é autônomo, resiliente e adaptável, operando continuamente e priorizando apenas ameaças reais com alto potencial de dano.
+
+Requisitos Funcionais Adicionais:
+
+RF26 (Must Have)--> Capacidade de detecção simultânea de múltiplas ameaças em diferentes vetores (terra, ar, mar).
+RF27 (Must Have)--> Sistema de previsão de ameaças com base em análise preditiva e aprendizado de máquina.
+RF28 (Should Have)--> Módulo de simulação para treinamento de operadores com base em cenários reais.
+RF29 (Should Have)--> Capacidade de priorização automatizada entre ameaças balísticas, cibernéticas e híbridas.
+RF30 (Must Have)--> Interface de visualização geoespacial integrada com mapas em tempo real para apoio à decisão.
+
+Requisitos Não Funcionais Adicionais:
+
+RNF7 (Should Have)--> Eficiência energética otimizada para operação contínua em ambientes com recursos limitados.
+RNF8 (Must Have)--> Alta escalabilidade do sistema para lidar com ataques em massa ou simultâneos.
+RNF9 (Must Have)--> Resiliência da rede interna para manter operações mesmo com interrupções externas.
+RNF10 (Should Have)--> Capacidade de autocura em caso de falhas críticas de software ou hardware.
+RNF11 (Must Have)--> Registro criptografado de logs operacionais para auditoria e investigação de incidentes.
