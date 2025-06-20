@@ -20,7 +20,7 @@
           <mxGeometry x="199" y="100" width="2" height="640" as="geometry" />
         </mxCell>
         <mxCell id="visao_activation1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="195" y="270" width="10" height="120" as="geometry" />
+          <mxGeometry x="194" y="270" width="10" height="120" as="geometry" />
         </mxCell>
         <mxCell id="controle" value="ControleDeSinal" style="shape=umlControl;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="290" y="40" width="120" height="60" as="geometry" />
@@ -32,10 +32,10 @@
           <mxGeometry x="320" y="110" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="controle_activation1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="345" y="250" width="10" height="170" as="geometry" />
+          <mxGeometry x="344" y="250" width="10" height="170" as="geometry" />
         </mxCell>
         <mxCell id="controle_activation2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="345" y="630" width="10" height="80" as="geometry" />
+          <mxGeometry x="344" y="630" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="servico" value="ServicoNeutralizacao" style="shape=umlControl;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="440" y="40" width="120" height="60" as="geometry" />
@@ -44,10 +44,10 @@
           <mxGeometry x="499" y="100" width="2" height="640" as="geometry" />
         </mxCell>
         <mxCell id="servico_activation1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="495" y="240" width="10" height="200" as="geometry" />
+          <mxGeometry x="494" y="240" width="10" height="200" as="geometry" />
         </mxCell>
         <mxCell id="servico_activation2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="495" y="670" width="10" height="50" as="geometry" />
+          <mxGeometry x="494" y="670" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="adaptador" value="&lt;&lt;adapter&gt;&gt;&#xa;AdaptadorDeInterceptacao" style="shape=umlControl;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="590" y="40" width="120" height="60" as="geometry" />
@@ -56,7 +56,7 @@
           <mxGeometry x="649" y="100" width="2" height="640" as="geometry" />
         </mxCell>
         <mxCell id="adaptador_activation1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="645" y="430" width="10" height="80" as="geometry" />
+          <mxGeometry x="644" y="430" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sistema" value="Sistema de Interceptacao de Sinais" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="740" y="40" width="20" height="40" as="geometry" />
@@ -220,36 +220,36 @@
         <mxCell id="msg15" value="autorizarBloqueio(false)" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=8;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="75" y="640" as="sourcePoint" />
-            <mxPoint x="199" y="640" as="targetPoint" />
+            <mxPoint x="195" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="msg16" value="solicitarMotivo()" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=8;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="199" y="650" as="sourcePoint" />
+            <mxPoint x="195" y="650" as="sourcePoint" />
             <mxPoint x="75" y="650" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="msg17" value="informarMotivo(motivo)" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=8;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="75" y="670" as="sourcePoint" />
-            <mxPoint x="199" y="670" as="targetPoint" />
+            <mxPoint x="195" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="msg18" value="processarNegacao(motivo)" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=8;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="209" y="690" as="sourcePoint" />
-            <mxPoint x="349" y="690" as="targetPoint" />
+            <mxPoint x="205" y="690" as="sourcePoint" />
+            <mxPoint x="345" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="msg19" value="registrarNegacao(motivo)" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=8;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="359" y="700" as="sourcePoint" />
-            <mxPoint x="499" y="700" as="targetPoint" />
+            <mxPoint x="355" y="700" as="sourcePoint" />
+            <mxPoint x="495" y="700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="msg20" value="&lt;&lt;create&gt;&gt;&#xa;createRelatorio(sinal, motivo, &quot;NEGADO&quot;)" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=8;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="509" y="710" as="sourcePoint" />
+            <mxPoint x="505" y="710" as="sourcePoint" />
             <mxPoint x="1210" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
