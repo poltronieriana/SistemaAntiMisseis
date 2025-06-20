@@ -13,38 +13,50 @@
         <mxCell id="operador_lifeline" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;dashed=1;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="69" y="90" width="2" height="650" as="geometry" />
         </mxCell>
-        <mxCell id="visao" value="VisaoPainelDeMonitoramento" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="140" y="40" width="120" height="700" as="geometry" />
+        <mxCell id="visao" value="VisaoPainelDeMonitoramento" style="shape=umlBoundary;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="140" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="visao_lifeline" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;dashed=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="199" y="100" width="2" height="640" as="geometry" />
         </mxCell>
         <mxCell id="visao_activation1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="199" y="270" width="10" height="120" as="geometry" />
+          <mxGeometry x="195" y="270" width="10" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="controle" value="ControleDeSinal" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="290" y="40" width="120" height="700" as="geometry" />
+        <mxCell id="controle" value="ControleDeSinal" style="shape=umlControl;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="290" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="controle_lifeline" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;dashed=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="349" y="100" width="2" height="640" as="geometry" />
         </mxCell>
         <mxCell id="controle_note" value="dominio - nucleo da&#xa;aplicacao" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="320" y="80" width="80" height="30" as="geometry" />
+          <mxGeometry x="320" y="110" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="controle_activation1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="349" y="250" width="10" height="170" as="geometry" />
+          <mxGeometry x="345" y="250" width="10" height="170" as="geometry" />
         </mxCell>
         <mxCell id="controle_activation2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="349" y="630" width="10" height="80" as="geometry" />
+          <mxGeometry x="345" y="630" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="servico" value="ServicoNeutralizacao" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="440" y="40" width="120" height="700" as="geometry" />
+        <mxCell id="servico" value="ServicoNeutralizacao" style="shape=umlControl;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="servico_lifeline" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;dashed=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="499" y="100" width="2" height="640" as="geometry" />
         </mxCell>
         <mxCell id="servico_activation1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="499" y="240" width="10" height="200" as="geometry" />
+          <mxGeometry x="495" y="240" width="10" height="200" as="geometry" />
         </mxCell>
         <mxCell id="servico_activation2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="499" y="670" width="10" height="50" as="geometry" />
+          <mxGeometry x="495" y="670" width="10" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="adaptador" value="&lt;&lt;adapter&gt;&gt;&#xa;AdaptadorDeInterceptacao" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="590" y="40" width="120" height="700" as="geometry" />
+        <mxCell id="adaptador" value="&lt;&lt;adapter&gt;&gt;&#xa;AdaptadorDeInterceptacao" style="shape=umlControl;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="590" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="adaptador_lifeline" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;dashed=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="649" y="100" width="2" height="640" as="geometry" />
         </mxCell>
         <mxCell id="adaptador_activation1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;fillColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="649" y="430" width="10" height="80" as="geometry" />
+          <mxGeometry x="645" y="430" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="sistema" value="Sistema de Interceptacao de Sinais" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="740" y="40" width="20" height="40" as="geometry" />
@@ -97,11 +109,14 @@
         <mxCell id="create_sinal" value="&lt;&lt;create&gt;&gt;&#xa;new Sinal(origem, frequencia, tipo)" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=8;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="755" y="220" as="sourcePoint" />
-            <mxPoint x="950" y="220" as="targetPoint" />
+            <mxPoint x="980" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sinal_object" value=":Sinal" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="950" y="220" width="60" height="380" as="geometry" />
+        <mxCell id="sinal_object" value=":Sinal" style="shape=umlEntity;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="950" y="220" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sinal_lifeline" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;dashed=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="979" y="260" width="2" height="340" as="geometry" />
         </mxCell>
         <mxCell id="msg1" value="notificarSinalSuspeito(sinal)" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=8;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -178,7 +193,7 @@
         <mxCell id="msg13" value="&lt;&lt;update&gt;&gt;&#xa;atualizarStatusSinal()" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=8;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="509" y="540" as="sourcePoint" />
-            <mxPoint x="970" y="540" as="targetPoint" />
+            <mxPoint x="979" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="update_note" value="Sinal bloqueado" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=8;" vertex="1" parent="1">
@@ -187,11 +202,14 @@
         <mxCell id="msg14" value="&lt;&lt;create&gt;&gt;&#xa;createRelatorio()" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=8;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="509" y="570" as="sourcePoint" />
-            <mxPoint x="1100" y="570" as="targetPoint" />
+            <mxPoint x="1130" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="relatorio_object" value=":Relatorio" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="1100" y="570" width="60" height="80" as="geometry" />
+        <mxCell id="relatorio_object" value=":Relatorio" style="shape=umlEntity;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="570" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="relatorio_lifeline" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;dashed=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1129" y="610" width="2" height="40" as="geometry" />
         </mxCell>
         <mxCell id="final_note1" value="Sinal bloqueado&#xa;e destruido" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="1020" y="590" width="70" height="30" as="geometry" />
@@ -232,11 +250,14 @@
         <mxCell id="msg20" value="&lt;&lt;create&gt;&gt;&#xa;createRelatorio(sinal, motivo, &quot;NEGADO&quot;)" style="html=1;verticalAlign=bottom;endArrow=block;fontSize=8;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="509" y="710" as="sourcePoint" />
-            <mxPoint x="1180" y="710" as="targetPoint" />
+            <mxPoint x="1210" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="relatorio_negado" value=":Relatorio" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="710" width="60" height="30" as="geometry" />
+        <mxCell id="relatorio_negado" value=":Relatorio" style="shape=umlEntity;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="710" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="relatorio_negado_lifeline" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;dashed=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1209" y="750" width="2" height="20" as="geometry" />
         </mxCell>
         <mxCell id="final_note2" value="Registra decisao de negacao&#xa;com motivo do operador" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f8cecc;strokeColor=#b85450;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="1250" y="700" width="110" height="30" as="geometry" />
